@@ -1,0 +1,45 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transiciones suaves */
+  }
+  
+  .boton-contenedor:hover {
+    background-color: #3131bb;
+    color: #00c531;
+    transform: scale(1.1); /* Escala suave al pasar el cursor */
+  }
+  
+  .boton-contenedor:active {
+    background-color: #252580;
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+  }
+  
+  .operador {
+    background-color: #00c531;
+    color: black;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transiciones suaves */
+  }
+  
+  .operador:hover {
+    background-color: #fd9308;
+    color: #00c531;
+    transform: scale(1.1); /* Escala suave al pasar el cursor */
+  }
+  
+  .operador:active {
+    background-color: #c97607;
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+  }
+  
